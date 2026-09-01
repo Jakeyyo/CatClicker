@@ -1,0 +1,51 @@
+    .under {
+        z-index: 1;
+    }
+
+    .over {
+     position: absolute;
+            top: 0;
+            left: 0;
+            width: 150px;
+            height: 150px;
+            
+            z-index: 2;
+    }
+
+      .container {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .left {
+            display: flex;
+            flex-direction: column;
+        }
+    
+    .kitten {
+        height: 300px;
+        width: 300px;
+    }
+
+    .cursor {
+        height: 25px;
+        width: 25px;
+
+    }
+
+    .backgroundBlue {
+        background-color: blue;
+        
+    }
+    
+    .shop {
+        margin-left: 20px;
+    }
+
+    .ascension {
+        margin-left: 100px;
+    }  
+
+    .warningColor {
+        color: red;
+    }
